@@ -1,26 +1,22 @@
 {
-  "name": "object-helpers",
+  "name": "@phaesynthe/object-helpers",
   "author": "Matthew W. Jackson <mwj8410@gmail.com>",
   "license": "UNLICENSED",
   "version": "0.1.0",
   "private": false,
-  "description": "A node module ",
+  "description": "A collection of functions to assist with Object manipulation",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Phaesynthe/object-helpers.git"
   },
   "engines": {
-    "node": "8.5.x",
+    "node": "9.1.x",
     "npm": "5.4.x"
   },
-  "os": [
-    "!win32"
-  ],
   "main": "./scr/Object-Helpers.module.js",
   "dependencies": {
     "chai": "^3.5.0",
-    "colors": "^1.1.2",
     "mocha": "^3.2.0",
     "sinon": "^2.1.0"
   },
